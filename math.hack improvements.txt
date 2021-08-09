@@ -1,0 +1,5 @@
+1. price column in dataset is right skewed. 
+  so, log transform should be taken for the price column.
+2. Levy and Price column are having outliers which should be 
+   removed by dropping the outliers.
+3. while predicting abs value pred should be taken to avoid negative values.
